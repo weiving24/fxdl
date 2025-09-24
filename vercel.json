@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "https://a.leekingx.cn" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.(js|css|svg|png|jpg|jpeg|gif|webp)",
+      "headers": {
+        "Cache-Control": "public, max-age=6000, immutable"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "headers": {
+        "Cache-Control": "public, max-age=600"
+      }
+    }
+  ]
+}
