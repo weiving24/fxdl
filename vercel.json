@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "https://your-origin.com/$1" }
+    { "source": "/(.*)", "destination": "https://a.leekingx.cn/$1" }
   ]
 }
